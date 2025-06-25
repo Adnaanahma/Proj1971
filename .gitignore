@@ -1,0 +1,5 @@
+# Ignore local secrets and user-specific config
+appsettings.Local.json
+.env
+*.user
+*.secret.json

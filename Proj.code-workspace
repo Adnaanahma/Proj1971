@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../FrontProj"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
