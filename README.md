@@ -157,6 +157,7 @@ A professional, portable RESTful API for user account management, built with ASP
 - All protected endpoints require a valid JWT Bearer token in the `Authorization` header.
 - CORS is enabled for `http://localhost:5173` (React frontend default).
 - For demo/interview, password reset tokens are returned in the response (in production, send via email).
+- The API will not be available until you start the application (e.g., by running dotnet run or starting the project in Visual Studio). Make sure the server is running before trying to access any endpoints.
 
 ---
 ## Local Secrets
