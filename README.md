@@ -159,5 +159,18 @@ A professional, portable RESTful API for user account management, built with ASP
 - For demo/interview, password reset tokens are returned in the response (in production, send via email).
 
 ---
+## Local Secrets
+
+- The file `appsettings.Local.json` is gitignored and should be created locally for secrets.
+- Example:
+  {
+    "Jwt": {
+      "Key": "your-32-char-real-secret-key-here",
+      "Issuer": "ProjApi",
+      "Audience": "ProjApiUsers",
+      "ExpiresInMinutes": 60
+    }
+  }
+- The default `appsettings.json` only contains placeholders.
 
 For any issues, please open an issue or contact the maintainer.
