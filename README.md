@@ -152,6 +152,18 @@ A professional, portable RESTful API for user account management, built with ASP
   "message": "Password reset successful."
 }
 ```
+## Testing Instructions
+
+To run all unit and integration tests:
+
+```sh
+cd Dev_5iveApp/Proj
+ dotnet test
+```
+
+- This will automatically build the project and run all tests in the `Tests` folder.
+- Make sure you have the .NET 8 SDK installed.
+- No additional setup is required; the test configuration uses an in-memory or SQLite database and injects test secrets.
 
 ## Notes
 - All protected endpoints require a valid JWT Bearer token in the `Authorization` header.
